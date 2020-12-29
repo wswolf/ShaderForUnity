@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Project\\ShaderForUnity\\ShaderForUnity\\ShaderForUnity.csproj": {}
+  },
+  "projects": {
+    "G:\\Project\\ShaderForUnity\\ShaderForUnity\\ShaderForUnity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Project\\ShaderForUnity\\ShaderForUnity\\ShaderForUnity.csproj",
+        "projectName": "ShaderForUnity",
+        "projectPath": "G:\\Project\\ShaderForUnity\\ShaderForUnity\\ShaderForUnity.csproj",
+        "packagesPath": "C:\\Users\\yuri.wang\\.nuget\\packages\\",
+        "outputPath": "G:\\Project\\ShaderForUnity\\ShaderForUnity\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yuri.wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.8.3038, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.206, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
