@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+texRECTproj(${0:samplerRECT},${1:float3})
+]]></content>
+	<tabTrigger>texRECTproj</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  cg-projecion tex</description>
+</snippet>

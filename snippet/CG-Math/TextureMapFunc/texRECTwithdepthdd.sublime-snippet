@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+texRECT(${0:samplerRECT},${1:float3},${2:float2},${3:float2})
+]]></content>
+	<tabTrigger>texRECT</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  with derivative and depth</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

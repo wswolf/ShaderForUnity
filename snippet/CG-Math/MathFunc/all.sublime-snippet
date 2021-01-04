@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+all(${0:})
+]]></content>
+	<tabTrigger>all</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  且 operator</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

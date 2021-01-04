@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+lit(${0:NdotL},${1:NdotH},${2:m})
+]]></content>
+	<tabTrigger>lit</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  return float4 x is ambient 1.0,y is diffuse if N.L less0 0 else N.L,z is specular if N.Lless0 N.Hless0 0 else pow(N.H,m),w is 1.0 </description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+texCUBEproj(${0:samplerCUBE},${1:float4})
+]]></content>
+	<tabTrigger>texCUBEproj</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  cg-projecion tex</description>
+</snippet>

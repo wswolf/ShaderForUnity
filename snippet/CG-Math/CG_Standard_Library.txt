@@ -1,0 +1,99 @@
+abs(x) Absolute value of x
+acos(x) [0,PI]
+all(x) && operator
+any(x) || operator
+asin(x) [-PI/2,PI/2]
+atan(x) [-PI/2,PI/2]
+atan2(y,x) y/x in range[-PI,PI]
+ceil(x) Smallest integer less than x(向上取整)
+clamp(x,a,b) x clamped to the rang [a,b]
+cos(x)
+cosh(x) hyperbolic cosine(双曲余弦)
+cross(A,B) （向量叉乘）
+degrees(x) Radian to Degree
+determinant(M) (矩阵M行列式因子)
+dot(A,B)
+exp(x) pow(e,x)
+exp2(x) pow(2,x)
+floor(x) largest integer not greater than x(向下取整)
+fmod(x,y) mod x/y,y!=0
+frac(x) Fractional(小数) part of x
+frexp(x,out exp) Splits x into a normalized fraction in the interval [½, 1), which is returned, and a power of 2, which is stored in exp .If x is 0, both parts of the result are 0.
+isfinite(x) return true if x is finite
+isinf(x) return true if x is infinite
+isnan(x) return true if x is NaN(not a number)
+ldexp(x,n) x*pow(2,n)
+lerp(a,b,f) linear interpolation (1-f)*a+b*f
+lit(NdotL,NdotH,m) return float4 x is ambient 1.0,y is diffuse if N.L <0 0 else N.L,z is specular if N.L<0 N.H<0 0 else pow(N.H,m),w is 1.0
+log(x) cg-math
+log2(x) cg-math
+log10(x) ln(x) cg-math
+max(a,b) cg-math
+min (a,b) cg-math
+modf(x,out ip) Splits x into integral and fractional parts ,ip store integer
+mul(M,N)
+mul(M,v)
+mul(v,M)
+noise(x) noise func return [0,1]
+pow(x,y)
+radians(x) Degree to Radians
+round(x) 四舍五入整数
+rsqrt(x) 1/sqrt(x) x must >0
+saturate(x) clamp(x,0,1)
+sign(x) 1 if x > 0; –1 if x < 0; 0 otherwise.
+sin(x)
+sincos(float x,out s,out c) s is sin(x),c is cos(x) 
+sinh(x) Hyperpoilc sin of x
+smoothstep(min,max,x) –2*(( x – min )/( max – min ))3 +3*(( x – min )/( max – min ))2
+step(a,x) 0 if x<a,1 if x>=a
+sqrt(x)
+tan(x)
+tanh(x) Hyperpoilc tan of (x)
+transpose(M) Matrix tanspos of matrix M
+
+Geometric Functions
+distance(pt1,pt2) distance between points pt1 and pt2
+faceforward(N,I,Ng) N if dot(Ng,I),-N otherwise
+length(v) length of a vector
+normalize(v) return a vertor of length 1
+reflect(I,N) Computes relection vector
+refract(I,N,eta) Computes refraction vector
+
+Texture Map Func
+tex1D(sampler1D tex,float s)
+tex1D(sampler1D tex,float s,float dsdx,float dsdy) with 导数
+tex1D(sampler1D tex,float2 sa) with depth
+tex1D(sampler1D tex,fload2 sa,float dsdx,float dsdy) with depth with 导数
+tex1Dproj(sampler1D tex,float2 sq) projection tex
+tex1Dproj(sampler1D tex,float3 saq) projection tex with depth
+tex2D(sampler2D tex,float2 s)
+tex2D(sampler2D tex,float2 s,float2 dsdx,float2 dsdy) with 导数
+tex2D(sampler2D tex,float3 sa) with depth
+tex2D(sampler2D tex,fload3 sa,float2 dsdx,float2 dsdy) with depth with 导数
+tex2Dproj(sampler2D tex,float3 sq) projection tex
+tex2Dproj(sampler2D tex,float4 saq) projection tex with depth
+texRECT(samplerRECT tex,float2 s) (opengl only)
+texRECT(samplerRECT tex,float2 s,float2 dsdx,float2 dsdy) with 导数(opengl only)
+texRECT(samplerRECT tex,float3 sa) with depth(opengl only)
+texRECT(samplerRECT tex,fload3 sa,float2 dsdx,float2 dsdy) with depth with 导数(opengl only)
+texRECTproj(samplerRECT tex,float3 sq) projection tex(opengl only)
+texRECTproj(samplerRECT tex,float4 saq) projection tex with depth(opengl only)
+tex3D(sampler3D tex,float3 s)
+tex3D(sampler3D tex,float3 s,float3 dsdx,float3 dsdy) with 导数
+tex3Dproj(sampler3D tex,float4 sq) 
+texCUBE(samplerCUBE tex,float3 s)
+texCUBE(samplerCUBE tex,float3 s,float3 dsdx,float 3dsdy) with 导数
+texCUBEproj(samplerCUBE tex,float4 sq)
+
+在这个表中，每个函数第二个参数的名字指明了在执行纹理查询的时候，它的值是如果被使用的:
+
+s表示这是一个一元、二元或三元纹理坐标。
+z表示这是一个用来进行阴影贴图查找的深度比较值。
+q表示这是一个透视值，在进行纹理查找之前，它被用来除以纹理坐标（s）。
+当你使用的纹理函数允许你指定一个深度比较值的时候，与之相关联的纹理单元必须被设置成深度比较纹理。否则，深度比较实际上不会被执行。 
+Derivative Func
+ddr(a)
+ddy(a)
+
+Debugging Func
+void debug(float4 x)

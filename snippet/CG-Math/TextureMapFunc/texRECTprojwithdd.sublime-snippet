@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+texRECTproj(${0:samplerRECT},${1:float4})
+]]></content>
+	<tabTrigger>texRECTproj</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  proj tex with derivative</description>
+</snippet>

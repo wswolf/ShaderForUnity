@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+texRECT(${0:samplerRECT},${1:float2},${2:float2},${3:float2})
+]]></content>
+	<tabTrigger>texRECT</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  with derivative</description>
+</snippet>

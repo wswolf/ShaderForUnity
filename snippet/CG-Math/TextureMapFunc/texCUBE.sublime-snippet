@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+texCUBE(${0:samplerCUBE},${1:float3})
+]]></content>
+	<tabTrigger>texCUBE</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  cg-TEX MAP FUNC</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

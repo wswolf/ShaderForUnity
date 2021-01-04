@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+step(${0:a},${1:x})
+]]></content>
+	<tabTrigger>step</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  0 if x less than a,1 if x>=a</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

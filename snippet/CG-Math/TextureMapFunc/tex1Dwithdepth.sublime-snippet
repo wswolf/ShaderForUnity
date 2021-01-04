@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+tex1D(${0:sampler1D},${1:float2})
+]]></content>
+	<tabTrigger>tex1D</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  with depth</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+clamp(${0:x},${1:a},${2:b})
+]]></content>
+	<tabTrigger>clamp</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  x clamped to the rang [a,b]</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

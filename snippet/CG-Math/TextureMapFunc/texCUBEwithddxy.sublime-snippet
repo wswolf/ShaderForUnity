@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+texCUBE(${0:samplerCUBE},${1:float3},${2:float3},${3:float3})
+]]></content>
+	<tabTrigger>texCUBE</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  with derivative</description>
+</snippet>

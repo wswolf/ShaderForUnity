@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+noise(${0:})
+]]></content>
+	<tabTrigger>noise</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  noise func return [0,1]</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+smoothstep(${0:min},${1:max},${2:x})
+]]></content>
+	<tabTrigger>smoothstep</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  –2*(( x – min )/( max – min ))3 +3*(( x – min )/( max – min ))2</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

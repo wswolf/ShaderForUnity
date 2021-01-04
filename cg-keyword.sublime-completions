@@ -1,0 +1,99 @@
+{
+	"scope":"source.shader",
+	"completions":
+	[
+		{"trigger":"Shader","contents":"Shader \"${0:}\"\n{\n}"},
+		{"trigger":"Properties","contents":"Properties\n{\n}"},
+		{"trigger":"_MainTex","contents":"_MainTex(\"${0:}\",2D)=\"white\" {}"},
+		{"trigger":"Range","contents":"Range {${0:},}"},
+		{"trigger":"Float","contents":"Float"},
+		{"trigger":"Int","contents":"Int"},
+		{"trigger":"Color","contents":"Color"},
+		{"trigger":"Vector","contents":"Vector"},
+		{"trigger":"Cube","contents":"Cube"},
+		{"trigger":"2D","contents":"2D"},
+		{"trigger":"3D","contents":"3D"},
+		{"trigger":"[HideInInspector]","contents":"[HideInInspector]"},
+		{"trigger":"[NoScaleOffset]","contents":"[NoScaleOffset]"},
+		{"trigger":"[Normal]","contents":"[Normal]"},
+		{"trigger":"[HDR]","contents":"[HDR]"},
+		{"trigger":"[Gamma]","contents":"[Gamma}"},
+		{"trigger":"[PerRenderData]","contents":"[PerRenderData]"},
+		{"trigger":"SubShader","contents":"SubShader\n{\n}"},
+		{"trigger":"UsePass","contents":"UsePass \"\""},
+		{"trigger":"Name","contents":"Name \"\""},
+		{"trigger":"GrabPass","contents":"GrabPass\n{\"${0:}\"\n}"},//textureName
+		{"trigger":"Tags","contents":"Tags {${0:}}"},
+		{"trigger":"Queue","contents":"Queue"},
+		{"trigger":"Background","contents":"Background"},
+		{"trigger":"Geometry","contents":"Geometry"},
+		{"trigger":"AlphaTest","contents":"AlphaTest"},
+		{"trigger":"Transparent","contents":"Transparent"},
+		{"trigger":"RenderType","contents":"RenderType"},
+		{"trigger":"Opaque","contents":"Opaque"},
+		{"trigger":"Transparent","contents":"Transparent"},
+		{"trigger":"TransparentCutout","contents":"TransparentCutout"},
+		{"trigger":"Background","contents":"Background"},
+		{"trigger":"Overlay","contents":"Overlay"},
+		{"trigger":"TreeOpaque","contents":"TreeOpaque"},
+		{"trigger":"TreeTransparent","contents":"TreeTransparent"},
+		{"trigger":"TreeBillboard","contents":"TreeBillboard"},
+		{"trigger":"Grass","contents":"Grass"},
+		{"trigger":"GrassBillboard","contents":"GrassBillboard"},
+		{"trigger":"Pass","contents":"Pass\n{\n}"},
+		{"trigger":"Cull","contents":"Cull"},//value is Back|Front|Off
+		{"trigger":"ZWrite","contents":"ZWrite"},//value is Off|On
+		{"trigger":"ZTest","contents":"ZTest"},//value is Less|Greater|LEqual|GEqual|Equal|NotEqual|Always
+		{"trigger":"Offset","contents":"Offset"},//
+		{"trigger":"Blend","contents":"Blend"},//Off|One|Zero|SrcColor|SrcAlpha|DstColor|DstAlpha|OneMinus*
+		{"trigger":"BlendOp","contents":"BlendOp"},//Add|Sub|RevSub|Min|Max...
+		{"trigger":"LightMode","contents":"LightMode"},
+		{"trigger":"ForwardBase","contents":"ForwardBase"},
+		{"trigger":"ForwardAdd","contents":"ForwardAdd"},
+		{"trigger":"Deferred","contents":"Deferred"},
+		{"trigger":"MotionVectors","contents":"MotionVectors"},
+		{"trigger":"ShadowCaster","contents":"ShadowCaster"},
+		{"trigger":"Stencil","contents":"Stencil \n{\n}"},
+		{"trigger":"Ref","contents":"Ref"},//0-255
+		{"trigger":"ReadMask","contents":"ReadMask"},//0-255
+		{"trigger":"WriteMask","contents":"WriteMask"},//0-255
+		{"trigger":"Comp","contents":"Comp"},//Less|Greater|LEqual|GEqual|Equal|NotEqual|Always
+		{"trigger":"Pass","contents":"Pass"},//Keep|Zero|Replace|IncrSat|DesrSat|Invert|IncrWrap|DecrWrap
+		{"trigger":"Fail","contents":"Fail"},//Keep|Zero|Replace|IncrSat|DesrSat|Invert|IncrWrap|DecrWrap
+		{"trigger":"ZFail","contents":"ZFail"},//Keep|Zero|Replace|IncrSat|DesrSat|Invert|IncrWrap|DecrWrap
+		{"trigger":"ColorMask","contents":"ColorMask"},//RGB|A|0|R,G,B,A 任意组合
+		{"trigger":"CGINCLUDE","contents":"CGINCLUDE\nENDCG"},
+		{"trigger":"CGPROGRAM","contents":"CGPROGRAM\nENDCG"},
+		{"trigger":"#pragma","contents":"#pragma"},
+		{"trigger":"#include","contents":"#include"},
+		//CG-语义
+		{"trigger":"POSITION","contents":"POSITION"},
+		{"trigger":"TANGENT","contents":"TANGENT"},
+		{"trigger":"NORMAL","contents":"NORMAL"},
+		{"trigger":"COLOR","contents":"COLOR"},
+		{"trigger":"SV_POSITION","contents":"SV_POSITION"},
+		{"trigger":"SV_Tatget","contents":"SV_Tatget"},
+		{"trigger":"TEXCOORD0","contents":"TEXCOORD0"},
+		{"trigger":"TEXCOORD1","contents":"TEXCOORD1"},
+		{"trigger":"TEXCOORD2","contents":"TEXCOORD2"},
+		{"trigger":"TEXCOORD3","contents":"TEXCOORD3"},
+		{"trigger":"TEXCOORD4","contents":"TEXCOORD4"},
+		{"trigger":"TEXCOORD5","contents":"TEXCOORD5"},
+		{"trigger":"TEXCOORD6","contents":"TEXCOORD6"},
+		{"trigger":"TEXCOORD7","contents":"TEXCOORD7"},
+		{ "trigger": "fixed", "contents": "fixed"},
+        { "trigger": "fixed2", "contents": "fixed2"},
+        { "trigger": "fixed2x2", "contents": "fixed2x2"},
+        { "trigger": "fixed3", "contents": "fixed3"},
+        { "trigger": "fixed3x3", "contents": "fixed3x3"},
+        { "trigger": "fixed4", "contents": "fixed4"},
+        { "trigger": "fixed4x4", "contents": "fixed4x4"},
+		{ "trigger": "half", "contents": "half"},
+        { "trigger": "half2", "contents": "half2"},
+        { "trigger": "half2x2", "contents": "half2x2"},
+        { "trigger": "half3", "contents": "half3"},
+        { "trigger": "half3x3", "contents": "half3x3"},
+        { "trigger": "half4", "contents": "half4"},
+        { "trigger": "half4x4", "contents": "half4x4"},
+	]
+}

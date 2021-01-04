@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+frexp(${0:},${1:out})
+]]></content>
+	<tabTrigger>frexp</tabTrigger>
+	<scope>source.shader</scope>
+	<description>  Splits x into a normalized fraction in the interval [½, 1), which is returned, and a power of 2, which is stored in exp .If x is 0, both parts of the result are 0.</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
